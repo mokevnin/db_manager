@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+#TODO
+$:.unshift File.dirname(__FILE__) + '/../lib'
+require 'db_manager/cli'
+
+require 'rubygems'
+require 'active_record'
+
+DbManager::CLI.execute

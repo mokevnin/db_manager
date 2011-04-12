@@ -1,0 +1,6 @@
+*.gem
+*.swp
+.rvmrc
+.bundle
+Gemfile.lock
+pkg/*
