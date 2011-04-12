@@ -1,0 +1,13 @@
+# DbManager
+
+## Installation
+
+    gem install db_manager
+
+## Setup
+
+    db_manager_install . 
+
+## Workflow
+
+    db_manager create -a mysql
